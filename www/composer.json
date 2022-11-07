@@ -1,0 +1,25 @@
+{
+    "name": "nilsonpessim/cdntv",
+    "description": "Monitoramento de canais CDNTV",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+          "config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Nilson Pessim",
+            "email": "nilson@techlabs.net.br",
+            "homepage": "https://www.techlabs.net.br",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "smarty/smarty": "^4.2"
+    }
+}
